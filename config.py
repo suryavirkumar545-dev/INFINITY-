@@ -18,31 +18,31 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8751517852:AAH6apaVff7k3meuKRuGWzkCmpexAumivQ")
-APP_ID = int(os.environ.get("APP_ID", "33882007"))
-API_HASH = os.environ.get("API_HASH", "799677df02c75c218e83f74a70c1eef9")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8545421376:AAFzFdh_7_sywo7_KbiJ29gYKux4ALBckCA")
+APP_ID = int(os.environ.get("APP_ID", "29780235"))
+API_HASH = os.environ.get("API_HASH", "5d3404de54587fb6eec7f1aef656018d")
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003734749769"))
-OWNER = os.environ.get("OWNER", "SKANIME04")  # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7033830081")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003675100602"))
+OWNER = os.environ.get("OWNER", "SANATANI_B0Y")  # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "6275020364")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "https://infinity-file.onrender.com/")  # e.g. https://your-domain.com
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Root66:root@cluster0.aoo8mij.mongodb.net/?appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FilestoreDB:Darkauli%401234@infinityfile.pitecuw.mongodb.net/?appName=Infinityfile")
+DB_NAME = os.environ.get("DATABASE_NAME", "FilestoreDB")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/SKANIME04")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/R0Y4L_KING")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/FkgGQYby/welcome.png")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/FkgGQYby/welcome.png")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://arolink.com")
-SHORTLINK_API = os.environ.get("AROLINK_API", "b14079f8742020af56a76a9cd83ef3b0775ca78b")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://shortxlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "0fbaf68e49013099204197ba4ed03a01c7196386")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/H0W_2_USE/12")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
@@ -50,15 +50,8 @@ SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @CARTOONFUNNY04\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/SKANIME04>CARTOONFUNNY04</a></blockquote></b>"
-ABOUT_TXT = """<b><blockquote>
-🏴‍☠️ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴀɴᴅ ᴀɴɪᴍᴇ ᴜɴɪᴠᴇʀꜱᴇ
-🎌 ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/CARTOONFUNNY04">CARTOONFUNNY04</a>
-📺 ᴍᴀɪɴ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/CARTOONFUNNY04">CARTOONFUNNY04</a>
-🔥 ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ • ꜱᴜʙʙᴇᴅ • ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇꜱ
-⚡ ɴᴇᴡ ᴇᴘɪꜱᴏᴅᴇꜱ ᴜᴘᴅᴀᴛᴇᴅ ʀᴇɢᴜʟᴀʀʟʏ
-🛠 ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : <a href="https://t.me/SKANIME04">SKANIME04</a>
-</blockquote></b>"""
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @ModAppsKing\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/ModAppsKing>ᴍᴏᴅᴀᴘᴘsᴋɪɴɢ</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/ModAppsKing>ModAppsKing</a>\n◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+i6NIEXiiQWM2YTll>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴇᴅᴜ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/EduAppsKing>EduAppsKing</a>\n◈ ᴄᴏᴜʀsᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/FATHER_OF_COURSE>Father Of Course</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : <a href=https://t.me/R0Y4L_KING>R0Y4L_KING</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -88,7 +81,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @CARTOONFUNNY04</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @ModAppsKing</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
@@ -99,10 +92,10 @@ USER_REPLY_TEXT = "😂 Bhai seedha baat mat kar, /start dabao!"
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "SKANIME04")
+OWNER_TAG = os.environ.get("OWNER_TAG", "R0Y4L_KING")
 UPI_ID = os.environ.get("UPI_ID", "20213904@axl")
 QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/35QF8QMJ/QR.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "t.me/SKANIME04")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "t.me/R0Y4L_KING")
 #--------------------------------------------
 #Time and its price
 #7 Days
@@ -138,4 +131,4 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
-   
+
