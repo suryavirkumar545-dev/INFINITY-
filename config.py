@@ -23,9 +23,9 @@ APP_ID = int(os.environ.get("APP_ID", "29780235"))
 API_HASH = os.environ.get("API_HASH", "5d3404de54587fb6eec7f1aef656018d")
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "7032769404"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003734749769"))
 OWNER = os.environ.get("OWNER", "SKANIME04")  # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "6275020364")) # Owner id
+OWNER_ID = int(os.environ.get("OWNER_ID", "7032769404")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "https://infinity-file.onrender.com/")  # e.g. https://your-domain.com
