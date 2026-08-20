@@ -23,7 +23,7 @@ APP_ID = int(os.environ.get("APP_ID", "29780235"))
 API_HASH = os.environ.get("API_HASH", "5d3404de54587fb6eec7f1aef656018d")
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003675100602"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003734749769)
 OWNER = os.environ.get("OWNER", "SANATANI_B0Y")  # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "6275020364")) # Owner id
 #--------------------------------------------
