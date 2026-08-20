@@ -28,7 +28,7 @@ OWNER = os.environ.get("OWNER", "SKANIME04")  # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "7032769404")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
-BASE_URL = os.environ.get("BASE_URL", "https://infinity-file.onrender.com/")  # e.g. https://your-domain.com
+BASE_URL = os.environ.get("BASE_URL", "https://infinity-op8p.onrender.com/")  # e.g. https://your-domain.com
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FilestoreDB:Darkauli%401234@infinityfile.pitecuw.mongodb.net/?appName=Infinityfile")
 DB_NAME = os.environ.get("DATABASE_NAME", "FilestoreDB")
