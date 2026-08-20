@@ -23,8 +23,8 @@ APP_ID = int(os.environ.get("APP_ID", "29780235"))
 API_HASH = os.environ.get("API_HASH", "5d3404de54587fb6eec7f1aef656018d")
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003734749769")
-OWNER = os.environ.get("OWNER", "SANATANI_B0Y")  # Owner username without @
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "7032769404"))
+OWNER = os.environ.get("OWNER", "SKANIME04")  # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "6275020364")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
@@ -34,7 +34,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FilestoreDB:Darkauli%4012
 DB_NAME = os.environ.get("DATABASE_NAME", "FilestoreDB")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/R0Y4L_KING")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/SKANIME04")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/FkgGQYby/welcome.png")
@@ -51,7 +51,7 @@ SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880
 
 #--------------------------------------------
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @ModAppsKing\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/ModAppsKing>ᴍᴏᴅᴀᴘᴘsᴋɪɴɢ</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/ModAppsKing>ModAppsKing</a>\n◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+i6NIEXiiQWM2YTll>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴇᴅᴜ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/EduAppsKing>EduAppsKing</a>\n◈ ᴄᴏᴜʀsᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/FATHER_OF_COURSE>Father Of Course</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : <a href=https://t.me/R0Y4L_KING>R0Y4L_KING</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/ModAppsKing>ModAppsKing</a>\n◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+i6NIEXiiQWM2YTll>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴇᴅᴜ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/EduAppsKing>EduAppsKing</a>\n◈ ᴄᴏᴜʀsᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/FATHER_OF_COURSE>Father Of Course</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : <a href=https://t.me/SKANIME04>SKANIME04</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -92,10 +92,10 @@ USER_REPLY_TEXT = "😂 Bhai seedha baat mat kar, /start dabao!"
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "R0Y4L_KING")
+OWNER_TAG = os.environ.get("OWNER_TAG", "SKANIME04")
 UPI_ID = os.environ.get("UPI_ID", "20213904@axl")
 QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/35QF8QMJ/QR.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "t.me/R0Y4L_KING")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "t.me/SKANIME04")
 #--------------------------------------------
 #Time and its price
 #7 Days
@@ -131,4 +131,4 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
-
+   
