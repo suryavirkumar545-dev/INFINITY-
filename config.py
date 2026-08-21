@@ -22,18 +22,34 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))
 BAN_SUPPORT      = os.environ.get("BAN_SUPPORT", "https://t.me/SKANIME04")   # contact support
 TG_BOT_WORKERS   = int(os.environ.get("TG_BOT_WORKERS", "200"))
 
-# SK ANIME FILE STORE — 5 public banners (16:9), har /start par random
-START_PICS = os.environ.get("START_PICS",
-    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/9381e9f8-03d5-4ac3-b5c6-7ca3ba526f1e/sk-1.jpg "
-    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/fe2eeff8-502f-4e27-82af-0938a19ee064/sk-2.jpg "
-    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/62585738-4d05-405e-a240-96f27ea83dbe/sk-3.jpg "
-    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/7f92049a-550a-46a4-951f-2918b09a718c/sk-4.jpg "
-    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/81ad3a8e-1815-458c-9fe0-83199f53c313/sk-5.jpg"
-    "https://i.ibb.co/KjDWnLbb/sk-villain.jpg"                        
-).split()
-START_PIC  = START_PICS[0]
-FORCE_PIC  = os.environ.get("FORCE_PIC", START_PICS[1])
+# SK ANIME FILE STORE — public 16:9 start banners
+DEFAULT_START_PICS = [
+    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/9381e9f8-03d5-4ac3-b5c6-7ca3ba526f1e/sk-1.jpg",
+    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/fe2eeff8-502f-4e27-82af-0938a19ee064/sk-2.jpg",
+    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/62585738-4d05-405e-a240-96f27ea83dbe/sk-3.jpg",
+    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/7f92049a-550a-46a4-951f-2918b09a718c/sk-4.jpg",
+    "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/81ad3a8e-1815-458c-9fe0-83199f53c313/sk-5.jpg",
+    "https://i.ibb.co/KjDWnLbb/sk-villain.jpg",
+]
 
+# Render/Heroku env में START_PICS देना हो तो URLs को space से अलग रखें
+START_PICS_ENV = os.environ.get("START_PICS", "").strip()
+
+START_PICS = (
+    [url for url in START_PICS_ENV.split() if url.startswith(("https://", "http://"))]
+    if START_PICS_ENV
+    else DEFAULT_START_PICS
+)
+
+if not START_PICS:
+    START_PICS = DEFAULT_START_PICS
+
+START_PIC = START_PICS[0]
+
+FORCE_PIC = os.environ.get(
+    "FORCE_PIC",
+    START_PICS[1] if len(START_PICS) > 1 else START_PICS[0],
+)
 # Force-Subscribe main channel
 FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "@CARTOONFUNNY04")
 
