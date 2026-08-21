@@ -29,6 +29,7 @@ START_PICS = os.environ.get("START_PICS",
     "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/62585738-4d05-405e-a240-96f27ea83dbe/sk-3.jpg "
     "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/7f92049a-550a-46a4-951f-2918b09a718c/sk-4.jpg "
     "https://project--c5b9624b-32d2-48f1-82aa-208313351e70-dev.lovable.app/__l5e/assets-v1/81ad3a8e-1815-458c-9fe0-83199f53c313/sk-5.jpg"
+    "https://i.ibb.co/KjDWnLbb/sk-villain.jpg"                        
 ).split()
 START_PIC  = START_PICS[0]
 FORCE_PIC  = os.environ.get("FORCE_PIC", START_PICS[1])
@@ -40,7 +41,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "b14079f8742020af56a76a9cd83ef3b0775ca78b") 
 TUT_VID       = os.environ.get("TUT_VID", "https://t.me/CARTOONFUNNY04")
 SHORT_MSG     = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/KjDWnLbb/sk-villain.jpg")
 
 HELP_TXT  = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @CARTOONFUNNY04\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/SKANIME04>@SKANIME04</a></blockquote></b>"
 ABOUT_TXT = "<b><blockquote>◈ ʙᴏᴛ : SK ANIME FILE STORE\n◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/CARTOONFUNNY04>@CARTOONFUNNY04</a>\n◈ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/CARTOONFUNNY04>@CARTOONFUNNY04</a>\n◈ sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/SKANIME04>@SKANIME04</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ / ᴏᴡɴᴇʀ : <a href=https://t.me/SKANIME04>@SKANIME04</a></blockquote></b>"
