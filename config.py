@@ -37,7 +37,7 @@ FORCE_PIC  = os.environ.get("FORCE_PIC", START_PICS[1])
 FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "@CARTOONFUNNY04")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "अपना_AROLINK_API_KEY") 
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "b14079f8742020af56a76a9cd83ef3b0775ca78b") 
 TUT_VID       = os.environ.get("TUT_VID", "https://t.me/CARTOONFUNNY04")
 SHORT_MSG     = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
