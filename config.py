@@ -33,7 +33,7 @@ DEFAULT_START_PICS = [
 ]
 
 # Render/Heroku env में START_PICS देना हो तो URLs को space से अलग रखें
-START_PICS_ENV = os.environ.get("START_PICS", "").strip()
+START_PICS_ENV = os.environ.get("START_PICS", "https://i.ibb.co/KjDWnLbb/sk-villain.jpg").strip()
 
 START_PICS = (
     [url for url in START_PICS_ENV.split() if url.startswith(("https://", "http://"))]
@@ -55,7 +55,7 @@ FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "@CARTOONFUNNY04")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "b14079f8742020af56a76a9cd83ef3b0775ca78b") 
-TUT_VID       = os.environ.get("TUT_VID", "https://t.me/CARTOONFUNNY04")
+TUT_VID       = os.environ.get("TUT_VID", "https://t.me/NEXTGEN_CINEMA_backup/54")
 SHORT_MSG     = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/KjDWnLbb/sk-villain.jpg")
 
@@ -73,8 +73,8 @@ BOT_STATS_TEXT  = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "😂 Bhai seedha baat mat kar, /start dabao!"
 
 OWNER_TAG      = os.environ.get("OWNER_TAG", "SKANIME04")
-UPI_ID         = os.environ.get("UPI_ID", "20213904@axl")
-QR_PIC         = os.environ.get("QR_PIC", "https://i.ibb.co/35QF8QMJ/QR.jpg")
+UPI_ID         = os.environ.get("UPI_ID", "direct contact admin")
+QR_PIC         = os.environ.get("QR_PIC", "https://i.ibb.co/KjDWnLbb/sk-villain.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "t.me/SKANIME04")
 
 PRICE1, PRICE2, PRICE3 = os.environ.get("PRICE1", "0 rs"), os.environ.get("PRICE2", "60 rs"), os.environ.get("PRICE3", "150 rs")
