@@ -4,9 +4,9 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # ---- Bot credentials (GitHub push se pehle env vars me daalo) ----
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID       = int(os.environ.get("APP_ID", "0"))
-API_HASH     = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8751517852:AAFTjRgxwLq-ETAZGzSukaBGpPkm83R6Gps")
+APP_ID       = int(os.environ.get("APP_ID", "33882007"))
+API_HASH     = os.environ.get("API_HASH", "799677df02c75c218e83f74a70c1eef9")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003734749769"))   # DB channel
 OWNER      = os.environ.get("OWNER", "SKANIME04")                 # owner username (no @)
@@ -15,8 +15,8 @@ OWNER_ID   = int(os.environ.get("OWNER_ID", "7032769404"))
 PORT     = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "https://infinity-op8p.onrender.com/")
 
-DB_URI  = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "FilestoreDB")
+DB_URI  = os.environ.get("DATABASE_URL", "mongodb+srv://Root66:root@cluster0.aoo8mij.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))
 BAN_SUPPORT      = os.environ.get("BAN_SUPPORT", "https://t.me/SKANIME04")   # contact support
